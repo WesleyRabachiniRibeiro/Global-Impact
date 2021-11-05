@@ -1,4 +1,4 @@
-import './App.css';
+import SecondBody from './components/home/body/secondBody/SecondBody';
 
 function App() {
   return (

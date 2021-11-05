@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function secondBody() {
+export default function SecondBody() {
     return (
         <div>
             
