@@ -29,10 +29,13 @@ export const  SecondStyled = styled.section`
             height: 80px;
         }
     } 
+    .logo .ray-img{
+        width: 60px;
+    }
     .last-logo{
         text-align: center;
-        width: 80px;
-        margin-right: 20px;
+        width: 60px;
+        margin: 0 30px 0 15px;
     }
     .texto-card{
         h2{
@@ -84,7 +87,7 @@ export const  SecondStyled = styled.section`
         .last-logo{
             width: 60px;
             height: 60px;
-            margin: 10px;
+            margin: 10px 27px 10px 0;
         }
     }
 `
