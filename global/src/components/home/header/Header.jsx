@@ -1,6 +1,6 @@
 import React from "react"
 import { HeaderStyled } from './styled'
-import Heart from '../../../assets/images/Heart.png'
+import Heart from '../../../assets/Img/Heart.png'
 
 
 

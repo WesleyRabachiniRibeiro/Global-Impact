@@ -1,6 +1,6 @@
 import React from 'react'
 import { SectionStyled, FoodStyled, InfoStyled } from './styled.js'
-import FoodForAll from "../../../../assets/images/FoodForAll.jpg"
+import FoodForAll from "../../../../assets/Img/FoodForAll.jpg"
 
 export default function ThirdBody() {
     return (
