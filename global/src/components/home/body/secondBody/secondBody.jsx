@@ -11,13 +11,13 @@ export default function SecondBody() {
             <div className="container">
                 <div className="sessao-1">
                     <div className="bloco">
-                        <div class="texto-card">
+                        <div className="texto-card">
                             <p>For nearly twenty-five years, SolarBox has developed, implemented and financed sustainable projects that recapture and reinvest otherwise lost resources. Utilizing world-class project development expertise, ThinkBox has achieved:</p>
                         </div>
                     </div>
                     <div className="bloco">
                         <div className="logo">
-                            <img src={MoneyIcon}/>
+                            <img src={MoneyIcon} alt='Money Icon'/>
                         </div>
                         <div className="texto-card">
                             <h2>$150M</h2>
@@ -26,7 +26,7 @@ export default function SecondBody() {
                     </div>
                     <div className="bloco">
                         <div className="logo">
-                            <img src={MoneyIcon}/>
+                            <img src={MoneyIcon} alt='Money Icon'/>
                         </div>
                         <div className="texto-card">
                             <h2>$150M</h2>
@@ -37,8 +37,8 @@ export default function SecondBody() {
 
                 <div className="sessao-2">
                     <div className="bloco">
-                        <div className="logo">
-                            <img src={CarIcon}/>
+                        <div className="logo carIcon">
+                            <img src={CarIcon} alt='Car Icon'/>
                         </div>
                         <div className="texto-card">
                             <h2>12,000+</h2>
@@ -47,7 +47,7 @@ export default function SecondBody() {
                     </div>
                     <div className="bloco">
                         <div className="logo">
-                            <img className="ray-img" src={RayIcon}/>
+                            <img className="ray-img" src={RayIcon} alt='Ray Icon'/>
                         </div>
                         <div className="texto-card">
                             <h2>24.9M</h2>
@@ -55,8 +55,8 @@ export default function SecondBody() {
                         </div> 
                     </div>
                     <div className="bloco">
-                        <div className="logo">
-                            <img className="drop-img" src={DropIcon}/>
+                        <div className="last-logo">
+                            <img className="drop-img" src={DropIcon} alt='Drop Icon'/>
                         </div>
                         <div className="texto-card">
                             <h2>3.5B</h2>
