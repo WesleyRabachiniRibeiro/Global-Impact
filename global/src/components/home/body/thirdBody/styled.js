@@ -5,15 +5,22 @@ export const SectionStyled = styled.section`
     display: flex;
     justify-content: center;
     height: auto;
-
     .container{
-        /* padding-top: 70px; */
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         width: 100%;
         height: auto;
         margin: 50px 0;
+    }
+    @media(max-width: 800px) {
+        .container{
+            flex-direction: column;
+            margin: 0;
+        }
+        &{
+            top: -120px;
+        }
     }
 `
 
@@ -62,10 +69,6 @@ export const InfoStyled = styled.div`
         line-height: 1.25;
         margin-bottom: 36px;
     }
-    .title__info{
-        display: flex;
-        
-    }
     .info__pai{
         display: flex;
         flex-direction: row;
@@ -84,5 +87,19 @@ export const InfoStyled = styled.div`
         letter-spacing: 2px;
         line-height: 1.25;
     }
-    
+    @media(max-width: 800px) {
+        &{
+            width: 100%;
+            text-align: center;
+        }
+        p{
+            margin-top: 20px;
+        }
+    }
+    @media(max-width: 400px) {
+        .info__pai{
+            flex-wrap: wrap;
+        }
+    }
+
 `
