@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
 export const  SecondStyled = styled.section`
+    p{
+        font-family: 'Poppins', sans-serif;
+    }
     .container{
         display: flex;
         flex-direction: column;
