@@ -5,6 +5,10 @@ export const SectionStyled = styled.section`
     display: flex;
     justify-content: center;
     height: auto;
+    p, h1, h2{
+        font-family: 'Poppins', sans-serif;
+
+    }
     .container{
         display: flex;
         flex-direction: row;
