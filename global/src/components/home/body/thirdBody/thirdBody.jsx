@@ -42,7 +42,6 @@ export default function ThirdBody() {
                     <div className="title__info">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis doloribus consequuntur voluptatem nihil, provident, expedita quidem, quaerat inventore perspiciatis id quo consectetur amet aperiam laboriosam earum? Fugit soluta quidem ea!</p>
                     </div>
-
                 </InfoStyled>
             </div>
         </SectionStyled>
