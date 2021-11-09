@@ -1,9 +1,9 @@
 import React from 'react'
 import { SecondStyled } from './styled'
-import MoneyIcon from '../../../../assets/images/MoneyIcon.png'
-import CarIcon from '../../../../assets/images/CarFeatureIcon.png'
-import RayIcon from '../../../../assets/images/RayIcon.png'
-import DropIcon from '../../../../assets/images/DropIcon.png'
+import MoneyIcon from '../../../../assets/Img/MoneyIcon.png'
+import CarIcon from '../../../../assets/Img/CarFeatureIcon.png'
+import RayIcon from '../../../../assets/Img/RayIcon.png'
+import DropIcon from '../../../../assets/Img/DropIcon.png'
 
 export default function SecondBody() {
     return (
