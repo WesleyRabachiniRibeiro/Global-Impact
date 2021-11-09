@@ -15,7 +15,6 @@ export const SignUpStyled = styled.section`
         align-items: center;
         /* border: 1px solid red; */
         width: 600px;
-        margin-top: 170px;
     }
 
     //container do switch button
