@@ -1,15 +1,17 @@
 import React from 'react'
 import { SignUpStyled } from './styled'
 
-export default function SignUp() {
+
+
+export default function SignUp(props) {
     return(
         <SignUpStyled>
             <div className="container">
                 <div className="sign-container">
                     <div className="bloco-switch">
-                        <label class="switch">
-                            <input type="checkbox"/>
-                            <span class="slider round"></span>
+                        <label className="switch">
+                            <input id="switch-button" type="checkbox" onClick={props.change}/>
+                            <span className="slider round"></span>
                         </label>
                     </div>
                     <form name="signForm" className="bloco-inputs">
@@ -54,9 +56,9 @@ export default function SignUp() {
                             </div>
                         </fieldset>
                     </form>
-                    <div className="bloco-button">
-                        <input type="button" for="signForm" value="Cadastrar"/>
-                    </div>
+                        <div className="bloco-button">
+                            <input type="button" for="signForm" value="Cadastrar"/>
+                        </div>
                 </div>    
             </div>
         </SignUpStyled>

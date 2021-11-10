@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 export const SignUpStyled = styled.section`
     .container{
-        height: 100vh;
         width: 100%;
         display:flex;
         justify-content: center;
@@ -143,7 +142,7 @@ export const SignUpStyled = styled.section`
     border-radius: 50%;
     }
 
-    @media(max-width:540px){
+    @media(max-width:600px){
         .bloco-inputs{
             width: 100%;
         }

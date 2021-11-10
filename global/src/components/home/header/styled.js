@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const  HeaderStyled = styled.header`
     width: 100%;
     position: absolute;
-    top: 20px;
+    top: 10px;
     color: white;
     p{
         font-family: Poppins;

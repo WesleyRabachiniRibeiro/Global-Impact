@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const ArrowStyled = styled.div`
     .view-more{
+        color: #fff;
         position: absolute;
         right: 0;
         bottom: 15px;
