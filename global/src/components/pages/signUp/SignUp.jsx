@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from '../../home/footer/Footer'
 import Header from '../../home/header/Header'
 import AllSingUp from './allSignUp/AllSingUp'
 
