@@ -56,9 +56,9 @@ export default function SignUpComponent(props) {
                             </div>
                         </fieldset>
                     </form>
-                        <div className="bloco-button">
-                            <input type="button" htmlFor="signForm" value="Cadastrar"/>
-                        </div>
+                    <div className="bloco-button">
+                        <input type="button" htmlFor="signForm" value="Cadastrar"/>
+                    </div>
                 </div>    
             </div>
         </SignUpStyled>

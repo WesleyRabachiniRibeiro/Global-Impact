@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import Home from './components/home/Home';
+import SignIn from './components/pages/signIn/SignIn';
 import SignUp from './components/pages/signUp/SignUp';
 
 
@@ -8,7 +9,7 @@ export const RouteCerta = () => {
         <Routes>
             <Route exact path="/" element={<Home/>}/>
             <Route path="/cadastro" element={<SignUp/>}/>
-            <Route path="/login"/>
+            <Route path="/login" element={<SignIn/>}/>
         </Routes>
     )
 }
