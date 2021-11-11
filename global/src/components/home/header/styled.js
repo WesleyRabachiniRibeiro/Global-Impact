@@ -15,8 +15,8 @@ export const  HeaderStyled = styled.header`
         text-align: left;
     }
     img{
-        width: 80px;
-        height: 80px;
+        width: 60px;
+        height: 60px;
     }
     .header-container{
         display: flex;

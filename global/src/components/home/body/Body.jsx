@@ -1,5 +1,4 @@
-import React, {useEffect, useState} from 'react'
-import SignUp from '../../pages/signUp/signUp'
+import React from 'react'
 import MainBody from './mainBody/MainBody'
 import ArrowComponent from './otherComponentsBody/arrow/ArrowComponent'
 import SubtitleComponent from './otherComponentsBody/subtitle/SubtitleComponent'
@@ -8,18 +7,11 @@ import ThirdBody from './thirdBody/ThirdBody'
 
 
 export default function Body() {
-    const [on, toggle] = useState(false)
-    const [backgroundColor, setBackground] = useState('#22aabd')
-    useEffect(() => {
-        setBackground(on ?  '#75c46b' : '#e74e3c')
-    },[on])  
-    const changeButton = () => {
-        toggle(!on)
-        console.log(on)
-    }
+    const background='rgba(255, 200, 58, 1)'
     return (
         <div>
-            <MainBody title="Instituição" backgrounds={backgroundColor} component={<SignUp onChange={changeButton} change={on}/>}/>
+            <MainBody title={"Better Days"} backgrounds={background} component={<SubtitleComponent/>}/>
+            <ArrowComponent/>
             <SecondBody/>
             <ThirdBody/>
         </div>
