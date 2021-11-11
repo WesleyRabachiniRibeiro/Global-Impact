@@ -5,7 +5,7 @@ export const DashboardStyled = styled.div`
     flex-direction: column;
     justify-content: flex-end;
     background-color: #fafafa;
-    font-family: 'ABeeZee';
+    font-family: 'ABeeZee', sans-serif;
     margin-left: 280px;
     @media(max-width: 1200px){
         &{
@@ -20,6 +20,7 @@ export const MenuStyled = styled.nav`
     height: 100vh;
     border-right: 1px solid #DDD;
     background-color: #fafafa;
+    font-family: 'ABeeZee', sans-serif;
     .menu-container{
         display: flex;
         flex-direction: column;

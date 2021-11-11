@@ -5,18 +5,20 @@ import DashboardNavbar from './components/pages/dashboard/navbar/DashboardNavbar
 import SignUp from './components/pages/signUp/signUp';
 import { DashboardStyled} from './components/pages/dashboard/navbar/styled'
 import ProductQtd from './components/pages/dashboard/productQtd/ProductQtd';
+import MarketBoard from './components/pages/market/MarketBoard';
 
 function App() {
   return (
     <div className="App">
-      {/* <DashboardNavbar/>
+      <DashboardNavbar/>
       <DashboardStyled>
         <ProductQtd/>
-        <SignUp/>
-      </DashboardStyled> */}
-      <Header/>
+        {/* <SignUp/> */}
+        <MarketBoard/>
+      </DashboardStyled>
+      {/* <Header/>
       <Body/>
-      <Footer/>
+      <Footer/> */}
     </div>
   );
 }
