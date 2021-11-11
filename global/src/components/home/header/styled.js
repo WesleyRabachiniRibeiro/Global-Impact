@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const  HeaderStyled = styled.header`
     width: 100%;
     position: absolute;
-    top: 20px;
+    top: 10px;
     color: white;
     p{
         font-family: Poppins;
@@ -15,8 +15,8 @@ export const  HeaderStyled = styled.header`
         text-align: left;
     }
     img{
-        width: 80px;
-        height: 80px;
+        width: 60px;
+        height: 60px;
     }
     .header-container{
         display: flex;

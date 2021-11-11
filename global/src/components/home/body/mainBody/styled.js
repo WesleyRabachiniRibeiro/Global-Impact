@@ -7,7 +7,7 @@ export const  MainBodyStyled = styled.section`
     flex-direction: column;
     color: white;
     background-color: rgba(255, 200, 58, 1);
-    height: 100vh;
+    min-height: 100vh;
 
     .title{
         display: flex;
@@ -15,8 +15,9 @@ export const  MainBodyStyled = styled.section`
         flex-direction: column;
         text-align: center;
     }
+
     .title h1{
-        width: 30%;
+        width: 380px;
         font-family: 'Eczar', serif;
         font-size: 100px;
         font-style: normal;
@@ -24,31 +25,43 @@ export const  MainBodyStyled = styled.section`
         line-height: 120px;
         letter-spacing: 2.5px;
         text-align: center;
+        text-transform: uppercase;
+        margin: 0 auto;
     }
+
     .team-name{
         font-size: 12px;
         transform: rotate(-90deg);
         position: absolute;
-        top: 85%;
-        left: 0;
+        bottom: 100px;
+        left: 110px;
         text-transform: uppercase;
     }
+
     .social-media{
         font-size: 25px;
         margin-right: 10px;
         position: absolute;
-        top: 90%;
-        right: 60px;
-        bottom: 0;
+        right: 140px;
+        bottom: 50px;
     }
+
     @media(min-height: 1080px){
-        .team-name{
-            top: 90%;
+        .title h1{
+            margin-top: 80px!important;
         }
     }
-    @media(max-width: 1200px){
+
+    @media(max-width: 900px){
         .title h1{
-            width: auto;
+            font-size: 40px!important;
+        }
+    }
+    @media(max-width: 700px){
+        .title h1{
+            margin-top: 80px;
+            width: auto!important;
+            font-size: 30px!important;
         }
     }
     @media(max-width: 520px){
@@ -56,10 +69,12 @@ export const  MainBodyStyled = styled.section`
             display: none;
         }
         .title h1{
-            font-size: 50px;
+            margin-top: 80px;
+            width: auto!important;
+            font-size: 30px!important;
         }
         .title p{
-            font-size: 18px;
+            font-size: 18px!important;
         }
     }
 `

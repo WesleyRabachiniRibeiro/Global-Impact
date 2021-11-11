@@ -1,5 +1,7 @@
-import Body from './components/home/body/Body';
+import { Routes } from './routes';
+import { BrowserRouter } from 'react-router-dom';
 import Header from './components/home/header/Header';
+import Body from './components/home/body/Body';
 import Footer from './components/home/footer/Footer';
 import DashboardNavbar from './components/pages/dashboard/navbar/DashboardNavbar';
 import SignUp from './components/pages/signUp/signUp';
@@ -21,6 +23,15 @@ function App() {
       <Footer/> */}
     </div>
   );
+import AllSingUp from './components/pages/signUp/AllSingUp';
+
+function App() {
+    return (
+        <div className="App">
+            <Header/>
+            <AllSingUp/>
+        </div>
+    );
 }
 
 export default App;

@@ -3,9 +3,10 @@ import styled from 'styled-components'
 export const DashboardStyled = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     background-color: #fafafa;
     font-family: 'ABeeZee', sans-serif;
+    min-height: 100vh;
+    font-family: 'ABeeZee';
     margin-left: 280px;
     @media(max-width: 1200px){
         &{
@@ -17,7 +18,7 @@ export const DashboardStyled = styled.div`
 export const MenuStyled = styled.nav`
     position: fixed;
     width: 280px;
-    height: 100vh;
+    min-height: 100vh;
     border-right: 1px solid #DDD;
     background-color: #fafafa;
     font-family: 'ABeeZee', sans-serif;
