@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
-import MainBody from '../../home/body/mainBody/MainBody'
-import SignUp from './signUpComponent/signUp'
+import MainBody from '../../../home/body/mainBody/MainBody'
+import SignUpComponent from '../signUpComponent/SignUpComponent'
 
 
 export default function AllSingUp() {
@@ -9,7 +9,7 @@ export default function AllSingUp() {
     const [title , setTitle] = useState('Instituição')
 
     useEffect(() => {
-        setBackground(on ?  '#75c46b' : '#e74e3c')
+        setBackground(on ?  '#56B090' : '#CC444B')
         setTitle(on ? 'Instituição' : 'Supermercado')
     },[on])
     
@@ -18,7 +18,7 @@ export default function AllSingUp() {
     }
     return (
         <div>
-            <MainBody title={title} backgrounds={backgroundColor} component={<SignUp switchInitial={on} change={changeButton}/>}/>
+            <MainBody title={title} backgrounds={backgroundColor} component={<SignUpComponent switchInitial={on} change={changeButton}/>}/>
         </div>
     )
 }

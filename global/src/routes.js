@@ -1,27 +1,14 @@
-// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-// import Body from './components/home/body/Body';
-// import Header from './components/home/header/Header';
-// import Footer from './components/home/footer/Footer';
-// import AllSingUp from './components/pages/signUp/AllSingUp';
+import { Route, Routes } from 'react-router-dom';
+import Home from './components/home/Home';
+import SignUp from './components/pages/signUp/SignUp';
 
 
-// export const Routes = () => {
-//     return (
-//         <Switch>
-//             <Route exact path="/">
-//                 <Header/>
-//                 <Body/>
-//                 <Footer/>
-//             </Route>
-//             <Route path="/cadastro">
-//                 <Header/>
-//                 <AllSingUp/>
-//                 <Footer/>
-//             </Route>
-//             <Route path="/login">
-//                 <Header/>
-//                 <Body/>
-//             </Route>
-//         </Switch>
-//     )
-// }
+export const RouteCerta = () => {
+    return (
+        <Routes>
+            <Route exact path="/" element={<Home/>}/>
+            <Route path="/cadastro" element={<SignUp/>}/>
+            <Route path="/login"/>
+        </Routes>
+    )
+}

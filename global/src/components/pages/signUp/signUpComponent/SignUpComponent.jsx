@@ -3,7 +3,7 @@ import { SignUpStyled } from './styled'
 
 
 
-export default function SignUp(props) {
+export default function SignUpComponent(props) {
     return(
         <SignUpStyled>
             <div className="container">
