@@ -11,12 +11,12 @@ export default function SignInComp() {
                         <input name="email" type="text" placeholder="Digite seu e-mail" />
                     </div>
                     <div className="inputs">
-                        <input name="senha" type="text" placeholder="Digite sua senha" />
+                        <input name="senha" type="text"  placeholder="Digite sua senha" />
                     </div>
-                    <button>Entrar</button>
+                    <input type="submit" name="btn" className="btn" value="Entrar"/>
                 </fieldset>
             </form>
-            <Link to="/cadastrar" className="create__account">Criar conta</Link>
+            <Link to="/cadastro" className="btn link-btn">Criar conta</Link>
         </SignInCompStyled>
     )
 }

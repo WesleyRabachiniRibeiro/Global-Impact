@@ -63,11 +63,11 @@ export const  MainBodyStyled = styled.section`
             width: auto!important;
             font-size: 30px!important;
         }
-    }
-    @media(max-width: 520px){
         .social-media, .team-name{
             display: none;
         }
+    }
+    @media(max-width: 540px){
         .title h1{
             margin-top: 80px;
             width: auto!important;
