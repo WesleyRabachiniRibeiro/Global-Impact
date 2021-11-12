@@ -2,7 +2,7 @@ import React from 'react'
 import { ProductStyled } from './styled'
 import {BiTrendingDown, BiTrendingUp} from 'react-icons/bi'
 
-export default function ProductQtd() {
+export default function ProductQtd(props) {
     return (
         <ProductStyled>
             <div className="all-titles">
@@ -13,7 +13,7 @@ export default function ProductQtd() {
                 <div className='product-count'>
                     <h2>325.045</h2>
                     <div>
-                        <p>Total de produtos</p>
+                        <p>{props.firstCount}</p>
                         <div className='positive'>
                             <BiTrendingUp/>
                             <span>+24</span>
@@ -23,7 +23,7 @@ export default function ProductQtd() {
                 <div className='product-count'>
                     <h2>340.000</h2>
                     <div>
-                        <p>Produtos Doados</p>
+                        <p>{props.secondCount}</p>
                         <div className='negative'>
                             <BiTrendingDown/>
                             <span>-24</span>
@@ -33,7 +33,7 @@ export default function ProductQtd() {
                 <div className='product-count'>
                     <h2>340.000</h2>
                     <div>
-                        <p>Produtos vencendo</p>
+                        <p>{props.thirdCount}</p>
                         <div className='negative'>
                             <BiTrendingDown/>
                             <span>-24</span>

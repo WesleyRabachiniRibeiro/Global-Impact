@@ -1,6 +1,6 @@
 import React from 'react'
 import { BsBook } from 'react-icons/bs'
-import { ListaStyled } from '../styled'
+import { ListaStyled } from './styled'
 
 export default function ListaMarket(props) {
     return (
