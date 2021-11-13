@@ -14,6 +14,10 @@ export const FooterStyled = styled.div`
         width: 130px;
         justify-content: space-between;
     }
+    .social-media__icons:hover{
+        position: relative;
+        transform: translateY(1px);
+    }
     p{
         font-family: 'Rubik', sans-serif;
         font-size: 20px;
@@ -22,5 +26,13 @@ export const FooterStyled = styled.div`
     svg{
         fill: #DADADA;
         font-size: 35px;
+    }
+    @media(max-width: 800px) {
+        .footer__global{
+            flex-direction: column;
+        }
+        p{
+            font-size: 17px;
+        }
     }
 `

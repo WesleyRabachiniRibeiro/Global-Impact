@@ -40,7 +40,7 @@ export const FoodStyled = styled.div`
     h2{
         color: #fff;
         margin: 0;
-        padding-bottom: 20px;
+        margin-bottom: 20px;
         font-size: 42px;
         font-weight: 700;    
     }
@@ -68,7 +68,7 @@ export const InfoStyled = styled.div`
     justify-content: space-between;
     p{
         color: #fff;
-        font-size: 20px;
+        font-size: 17px;
         letter-spacing: 2px;
         line-height: 1.25;
         margin-bottom: 36px;
@@ -79,7 +79,7 @@ export const InfoStyled = styled.div`
         justify-content: space-between;
     }
     .info__filha{
-        width: 350px;
+        width: 300px;
     }
     .info__filha h1{
         color: #fff;
@@ -103,6 +103,7 @@ export const InfoStyled = styled.div`
     @media(max-width: 400px) {
         .info__pai{
             flex-wrap: wrap;
+            justify-content: center;
         }
     }
 
