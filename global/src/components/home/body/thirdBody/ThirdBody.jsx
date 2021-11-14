@@ -18,15 +18,18 @@ export default function ThirdBody() {
                 </FoodStyled>
                 <InfoStyled>
                     <div className="title__info">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis doloribus consequuntur voluptatem nihil, provident, expedita quidem, quaerat inventore perspiciatis id quo consectetur amet aperiam laboriosam earum? Fugit soluta quidem ea!</p>
+                        <p>Sabemos que a questão da
+                        fome mundial tem se tornado uma das pautas mais recorrentes e tristes na
+                        sociedade, porém com a ajuda de mercados e instituições, faremos a nossa
+                        parte para combater a fome e reduzir o desperdício de alimentos. Mas como?</p>
                     </div>
                     <div className="info__pai">
                         <div className="info__filha">
-                            <h1>DESGIN</h1>
+                            <h1>Mercados</h1>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate ab earum doloribus voluptatem ipsam excepturi odit blanditiis exercitationem, perspiciatis officia soluta aliquam dolores error, quae vitae quod placeat nam corrupti?</p>
                         </div>
                         <div className="info__filha">
-                        <h1>DESGIN</h1>
+                        <h1>Instituições</h1>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate ab earum doloribus voluptatem ipsam excepturi odit blanditiis exercitationem, perspiciatis officia soluta aliquam dolores error, quae vitae quod placeat nam corrupti?</p>
                         </div>
                     </div>
