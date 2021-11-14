@@ -26,11 +26,11 @@ export default function ThirdBody() {
                     <div className="info__pai">
                         <div className="info__filha">
                             <h1>Mercados</h1>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate ab earum doloribus voluptatem ipsam excepturi odit blanditiis exercitationem, perspiciatis officia soluta aliquam dolores error, quae vitae quod placeat nam corrupti?</p>
+                            <p>O objetivo dos mercados nesta campanha será enviar uma planilha em nosso site, com os produtos que estão perto das datas de vencimento, com isso, instituições e assistentes sociais poderão recolher este alimento para ajudar os mais necessitados.</p>
                         </div>
                         <div className="info__filha">
                         <h1>Instituições</h1>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate ab earum doloribus voluptatem ipsam excepturi odit blanditiis exercitationem, perspiciatis officia soluta aliquam dolores error, quae vitae quod placeat nam corrupti?</p>
+                            <p>O objetivo das instituições nesta campanha será de recolher os alimentos perto da data de vencimento, disponibilizados pelos supermercados, a partir disso, junto ao pedido traremos o endereço disponibilizado para retirada.</p>
                         </div>
                     </div>
                     <div className="info__pai">
