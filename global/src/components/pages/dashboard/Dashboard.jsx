@@ -6,7 +6,7 @@ import TableProduct from '../tableProduct/TableProduct'
 export default function Dashboard() {
     return (
         <>
-        <MenuBar firstCount="Produtos recebidos" secondCount="Produtos doados" thirdCount="Produtos vencidos" component={<MarketBoard/>}/>
+        <MenuBar firstCount="Produtos recebidos" secondCount="Produtos doados" thirdCount="Produtos vencidos" component={<TableProduct supermercado="Supermercado One"/>}/>
         </>
     )
 }
