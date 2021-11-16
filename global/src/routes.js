@@ -5,7 +5,6 @@ import GraphicPage from './components/pages/graphicPage/GraphicPage';
 import SignIn from './components/pages/signIn/SignIn';
 import SignUp from './components/pages/signUp/SignUp';
 
-
 export const RouteCerta = () => {
     return (
         <Routes>
