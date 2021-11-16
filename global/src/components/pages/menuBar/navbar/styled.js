@@ -37,22 +37,32 @@ export const MenuStyled = styled.nav`
         display: flex;
         width: auto;
         margin-left: 15px;
+        padding: 10px 20px;
+        border-radius: 20px;
         color: #0C4284;
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
         line-height: 21px;
-        padding: 10px 20px;
-        border-radius: 20px;
+        text-decoration: none;
     }
     .option-menu:hover{
         background-color: #DAE9FC;
         color: #1473E6;
         cursor: pointer;
     }
-    .option-menu p{
+    .option-menu a{
         width: 90px;
         text-align: start;
+    }
+
+    a{
+        color: #0C4284;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        text-decoration: none;
     }
     .option-menu, .logo-menu{
         margin-top: 30px;
@@ -63,11 +73,10 @@ export const MenuStyled = styled.nav`
     .icon{
         margin-right: 10px;
     }
-    @media(max-width:1200px){
-        &{
-            display: none;
-        }
-    }
 `
-
+export const BurgerDashboardStyled = styled.nav`
+    position: absolute;
+    top: 38px;
+    left: 10px;
+`
 

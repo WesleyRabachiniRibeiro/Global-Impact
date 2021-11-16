@@ -16,7 +16,7 @@ export default function MainBody(props) {
 
     if (props.title.toUpperCase() === "BETTER DAYS"){
         title = {
-            fontSize: '100px'
+            fontSize: '100px',
         }
     };
 

@@ -11,6 +11,7 @@ export const FooterStyled = styled.div`
     }
     .social-media__icons{
         display: flex;
+        align-items: center;
         width: 130px;
         justify-content: space-between;
     }

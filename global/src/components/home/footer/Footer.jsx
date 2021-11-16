@@ -9,9 +9,9 @@ export default function Footer() {
             <div className="footer__global">
                 <p>Design by Key-Team</p>
                 <div className="social-media__icons">
-                    <BsFacebook/>
-                    <AiFillTwitterCircle/>
-                    <BsInstagram/>
+                    <a href="https://web.facebook.com/Key-Team-103108065307317?_rdc=1&_rdr"><BsFacebook/></a>
+                    <a href="https://twitter.com"><AiFillTwitterCircle/></a>
+                    <a href="https://www.instagram.com/keyteam2021/"><BsInstagram/></a>
                 </div>   
                 <p>Sobre</p>
             </div>
