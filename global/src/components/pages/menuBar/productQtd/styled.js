@@ -87,14 +87,22 @@ export const ProductStyled = styled.div`
             padding: 2px 5px;
         }
     }
+    @media(max-width: 1200px){
+        h1{
+            margin-left: 30px;
+        }
+    }
     @media(max-width: 900px){
+        h1{
+            margin-left: 0px;
+        }
         .all-titles{
             flex-direction: column;
         }
         .all-titles h1{
             text-align: center;
             font-size: 30px;
-            width: 100%;
+            width: 79%;
         }
         .product-board{
             align-items: center;

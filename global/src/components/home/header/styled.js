@@ -14,9 +14,10 @@ export const  HeaderStyled = styled.header`
         letter-spacing: 3px;
         text-align: left;
     }
-    img{
-        width: 60px;
-        height: 60px;
+    .logo{
+        width: 70px;
+        height: 70px;
+        margin-left: 55px;
     }
     .header-container{
         display: flex;
@@ -29,136 +30,125 @@ export const  HeaderStyled = styled.header`
         align-items: center;
         justify-content: space-between;
     }
-
-`
-export const NavStyled = styled.nav`
-        padding:2rem;
-        display:flex;
-        justify-content: space-between;
-        align-items:center;
-        height: 20px;
-        margin-top:2rem;
-        margin-bottom: 2rem;
-
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        #project{
-            font-weight: 700;
-            font-size: 2rem;
-            margin-left: 2.5rem;
-            transition: all 0.4s ease-in-out;
-            &:hover{
-                transform: scale(1.1);
-            }
-            @media(max-width: 480px){
-                font-size: 20px;
-            }
+    .burger-menu-pointer{
+        cursor: pointer;
+    }
+    @media(max-width: 1200px){
+        p{
+            display: none;
         }
-        .nav-item{
-            font-family: 'poppins';
-            font-weight: 400;
-            font-size: 1.2rem;
-            color: #fff;
-            text-decoration: none;
-            transition: all 0.4s ease-in-out;
-            &:hover{
-                transform: scale(1.2);
-            }
-        }
+    }
+
 `
 export const BurgerStyled = styled.div`
 /* Position and sizing of burger button */
-.bm-burger-button {
-position: absolute;
-width: 36px;
-height: 30px;
-left: 36px;
-top: 42px;
-transition: all 0.4s ease-in-out;
-&:hover {
-    transform: scale(1.2);
-}
-}
 
-/* Position and sizing of clickable cross button */
-.bm-cross-button {
-height: 24px;
-width: 24px;
-margin-top: -40px;
-margin-right: 40px;
-transition: all 0.3s ease-in-out;
-}
-.bm-cross-button:hover {
-    transform: scale(1.2);
-}
+    .bm-burger-button {
+        cursor: pointer!important;
+        width: 36px;
+        height: 30px;
+        transition: all 0.4s ease-in-out;
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+    .bm-burger-button button{
+        width: 36px!important;
+        height: 30px!important;
+    }
 
-/*
-Sidebar wrapper styles
-Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
-*/
-.bm-menu-wrap {
-    height: 100vh ;
-}
 
-/* General sidebar styles */
-.bm-menu {
-background: linear-gradient(100deg, #a8e 2%, #a8c0ff 98%) !important;
--webkit-box-shadow: 2px 2px 15px 5px rgba(0,0,0,0.3); 
-    box-shadow: 2px 2px 15px 5px rgba(0,0,0,0.3);
-padding: 2.5em 0 0 0 !important;
-font-size: 1.15em !important;
-font-family:'popping', sans-serif;
-height: 120vh !important;
-margin-top: -4rem !important;
-margin-left: -2rem !important;
-margin-right: 2rem !important;
-overflow: hidden !important; 
+    /* Position and sizing of clickable cross button */
+    .bm-cross-button {
+        margin-top: 0;
+        margin-right: 40px;
+        transition: all 0.3s ease-in-out;
+    }
+    .bm-cross-button:hover {
 
-/* Morph shape necessary with bubble or elastic */
-.bm-morph-shape {
-    fill: #373a47;
-}
+        transform: scale(1.1);
+    }
 
-/* Wrapper for item list */
-.bm-item-list {
-    padding: 2em 1em 2em;
-}
+    /*
+    Sidebar wrapper styles
+    Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+    */
+    .bm-menu-wrap {
+        height: 100vh ;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
 
-.menu-item{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'poppins';
-    font-weight: 400;
-    font-size: 1.2rem;
-    color: #fff;
-    text-decoration: none;
-    transition: all 0.4s ease-in-out;
-}
-.items{
-    display:grid;
-    place-items: center;
-}
-.icon{
-    display:flex;
-    width: 30%;
-    margin: 0 auto;
-}
+    /* General sidebar styles */
+    .bm-menu {
+        background: #fafafa !important;
+        -webkit-box-shadow: 2px 2px 15px 5px rgba(0,0,0,0.3); 
+        box-shadow: 2px 2px 15px 5px rgba(0,0,0,0.3);
+        font-size: 1.15em !important;
+        height: 100vh !important;
+        font-family: 'ABeeZee', sans-serif;
+        overflow: hidden !important; 
+        width: 279px;
+    }
 
-/* Individual item */
-.bm-item {
-    padding: 1rem;
-    transition: all 0.3s ease-in-out;
-    &:hover {
-    background: #ffc2e2;
-    border: none !important;
-    padding: 1em 1.5em 1em !important;
-    border-radius: 0 !important;
-}
-}
-.bm-overlay {
-    margin-top: -4rem !important;
-}
-}
+    /* Wrapper for item list */
+    .items:hover{
+        background-color: #DAE9FC;
+        color: #1473E6;
+    }
+
+    /* Individual item */
+    .bm-item-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        cursor: default;
+    }
+    .logo-menu{
+        width: 77px;
+        height: 67px;
+    }
+    .logo-menu .logo{
+        margin-left: 0;
+    }
+    .option-menu{
+        display: flex!important;
+        justify-content: space-between!important;
+        width: 158px;
+        padding: 10px 20px;
+        border-radius: 20px;
+        color: #0C4284;
+        font-size: 18px;
+        text-align: left;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        text-decoration: none;
+    }
+    .option-menu:hover{
+        background-color: #DAE9FC;
+        color: #1473E6;
+        cursor: pointer;
+    }
+    .option-menu a{
+        width: 90px;
+        text-align: start;
+    }
+    a{
+        color: #0C4284;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        text-decoration: none;
+    }
+    .option-menu, .logo-menu{
+        margin-top: 30px;
+    }
+    .option-menu:last-child{
+        justify-self: flex-end;
+    }
+
 `

@@ -1,6 +1,7 @@
 import React from 'react'
 import MarketBoard from '../market/MarketBoard'
 import MenuBar from '../menuBar/MenuBar'
+import TableProduct from '../tableProduct/TableProduct'
 
 export default function Dashboard() {
     return (
