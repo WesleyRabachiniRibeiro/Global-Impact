@@ -1,11 +1,12 @@
 import React from 'react'
-import { ProductStyled } from '../menuBar/productQtd/styled'
+import { TableProductStyled, FormProductStyled } from './styled.js'
 
 export default function TableProduct(props) {
     return (
-        <ProductStyled>
-            <h1>{props.supermercado}</h1>
-            <table>
+        <>
+        <FormProductStyled>
+            <TableProductStyled>
+                <caption>{props.supermercado}</caption>
                 <thead>
                     <tr>
                         <th>Produtos</th>
@@ -22,7 +23,9 @@ export default function TableProduct(props) {
                         <td><input type="number" name="quantidade"/></td>
                     </tr>
                 </tbody>
-            </table>
-        </ProductStyled>
+            </TableProductStyled>
+            <input type="button" className="accept" value="Finalizar Pedido"/>
+        </FormProductStyled>
+        </>
     )
 }

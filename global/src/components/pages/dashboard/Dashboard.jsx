@@ -7,7 +7,7 @@ import FoodStock from '../foodStock/FoodStock'
 export default function Dashboard() {
     return (
         <>
-        <MenuBar firstCount="Produtos recebidos" secondCount="Produtos doados" thirdCount="Produtos vencidos" component={<FoodStock/>}/>
+        <MenuBar firstCount="Produtos recebidos" secondCount="Produtos doados" thirdCount="Produtos vencidos" component={<TableProduct supermercado="Supermercado One"/>}/>
         </>
     )
 }
