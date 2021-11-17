@@ -4,7 +4,7 @@ export const MarketStyled = styled.section`
     font-family:"AbeeZee";
     display: flex;
     height: auto;
-    width:90%;
+    width:100%;
     flex-direction: column;
     margin:0 auto;
 `
