@@ -6,8 +6,8 @@ import ListaUpdate from './listaUpdate/ListaUpdate';
 export default function MarketBoard() {
     return (
         <MarketStyled>
-            <ListaMarket supermarketNameOne="Teste2"/>
-            <ListaUpdate marketUpdate="Últimas atualizações" marketReceived="Teste4"/>
+            <ListaMarket supermarketNameOne="Supermercado One"/>
+            <ListaUpdate marketUpdate="Últimas atualizações" marketReceived="Recebidos Supermercado Two"/>
         </MarketStyled>
     )
 }

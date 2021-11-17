@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const ListaStyled = styled.div`
+    width: 92%;
+    margin: 0 auto;
     p{
         font-size: 19px;
     }

@@ -15,7 +15,7 @@ const data = {
   datasets: [
     {
       label: "Produtos",
-      data: [0, 1000, 10000, 50000, 10000],
+      data: [2000, 1000, 3000, 1500, 2500, 1500],
       fill: false,
       backgroundColor: '#1473E6',
       borderColor: '#1473E6',

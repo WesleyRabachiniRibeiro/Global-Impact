@@ -1,13 +1,15 @@
 import React from 'react'
+import ListaUpdate from '../market/listaUpdate/ListaUpdate'
 import MarketBoard from '../market/MarketBoard'
 import MenuBar from '../menuBar/MenuBar'
-import TableProduct from '../tableProduct/TableProduct'
-import FoodStock from '../foodStock/FoodStock'
 
 export default function Dashboard() {
     return (
         <>
-        <MenuBar firstCount="Produtos recebidos" secondCount="Produtos doados" thirdCount="Produtos vencidos" component={<TableProduct supermercado="Supermercado One"/>}/>
+            {/* Instiuição */}
+            <MenuBar firstCount="Produtos recebidos" secondCount="Produtos doados" thirdCount="Produtos vencidos" component={<MarketBoard/>}/>
+            {/* Supermarket */}
+            <MenuBar firstCount="Produtos recebidos" secondCount="Produtos doados" thirdCount="Produtos vencendo" component={<ListaUpdate marketUpdate='Últimas Doações' marketReceived='Supermercado One' isMarket="supermarket"/>}/>
         </>
     )
 }
