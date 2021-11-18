@@ -1,6 +1,6 @@
 import React from 'react'
 import { SectionStyled, FoodStyled, InfoStyled } from './styled.js'
-
+import { Link } from 'react-router-dom'
 import FoodForAll from "../../../../assets/Img/FoodForAll.jpg"
 
 export default function ThirdBody() {
@@ -34,17 +34,17 @@ export default function ThirdBody() {
                         </div>
                     </div>
                     <div className="info__pai">
-                        <div className="info__filha">
+                        {/* <div className="info__filha">
                             <h1>DESGIN</h1>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate ab earum doloribus voluptatem ipsam excepturi odit blanditiis exercitationem, perspiciatis officia soluta aliquam dolores error, quae vitae quod placeat nam corrupti?</p>
                         </div>
                         <div className="info__filha">
                         <h1>DESGIN</h1>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate ab earum doloribus voluptatem ipsam excepturi odit blanditiis exercitationem, perspiciatis officia soluta aliquam dolores error, quae vitae quod placeat nam corrupti?</p>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="title__info">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis doloribus consequuntur voluptatem nihil, provident, expedita quidem, quaerat inventore perspiciatis id quo consectetur amet aperiam laboriosam earum? Fugit soluta quidem ea!</p>
+                        <p>Deste modo, você nos ajudará a combater a fome mundial! Simples, não é mesmo? Venha conosco fazer parte dessa luta, todo suporte é essencial.</p>
                     </div>
                 </InfoStyled>
             </div>
