@@ -106,5 +106,4 @@ export const InfoStyled = styled.div`
             justify-content: center;
         }
     }
-
 `

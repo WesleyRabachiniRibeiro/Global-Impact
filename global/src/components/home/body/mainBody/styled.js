@@ -36,6 +36,7 @@ export const  MainBodyStyled = styled.section`
         bottom: 100px;
         left: 110px;
         text-transform: uppercase;
+        font-family: 'Poppins', sans-serif;
     }
 
     .social-media{
