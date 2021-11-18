@@ -1,9 +1,9 @@
 import React from 'react'
 import { SecondStyled } from './styled'
-import MoneyIcon from '../../../../assets/Img/MoneyIcon.png'
-import CarIcon from '../../../../assets/Img/CarFeatureIcon.png'
-import RayIcon from '../../../../assets/Img/RayIcon.png'
-import DropIcon from '../../../../assets/Img/DropIcon.png'
+import { GiWeightScale, GiWeightCrush } from 'react-icons/gi'
+import {MdNoFood} from 'react-icons/md'
+import {FaBed} from 'react-icons/fa'
+import {AiOutlineFieldNumber} from 'react-icons/ai'
 
 export default function SecondBody() {
     return (
@@ -17,7 +17,7 @@ export default function SecondBody() {
                     </div>
                     <div className="bloco">
                         <div className="logo">
-                            <img src={MoneyIcon} alt='Money Icon'/>
+                            <GiWeightCrush/>
                         </div>
                         <div className="texto-card">
                             <h2>35%</h2>
@@ -26,7 +26,7 @@ export default function SecondBody() {
                     </div>
                     <div className="bloco">
                         <div className="logo">
-                            <img src={MoneyIcon} alt='Money Icon'/>
+                            <GiWeightScale/>
                         </div>
                         <div className="texto-card">
                             <h2>41,6KG</h2>
@@ -38,7 +38,7 @@ export default function SecondBody() {
                 <div className="sessao-2">
                     <div className="bloco">
                         <div className="logo carIcon">
-                            <img src={CarIcon} alt='Car Icon'/>
+                            <MdNoFood/>
                         </div>
                         <div className="texto-card">
                             <h2>1 em 9</h2>
@@ -47,7 +47,7 @@ export default function SecondBody() {
                     </div>
                     <div className="bloco">
                         <div className="logo">
-                            <img className="ray-img" src={RayIcon} alt='Ray Icon'/>
+                            <FaBed/>
                         </div>
                         <div className="texto-card">
                             <h2>811M</h2>
@@ -56,10 +56,10 @@ export default function SecondBody() {
                     </div>
                     <div className="bloco">
                         <div className="last-logo">
-                            <img className="drop-img" src={DropIcon} alt='Drop Icon'/>
+                            <AiOutlineFieldNumber/>
                         </div>
                         <div className="texto-card">
-                            <h2>3.5B</h2>
+                            <h2>10</h2>
                             <p>O Brasil é o 10º país que mais desperdiça mundo</p>
                         </div> 
                     </div>

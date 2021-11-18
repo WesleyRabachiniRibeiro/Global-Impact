@@ -93,4 +93,10 @@ export const  SecondStyled = styled.section`
             margin: 10px 27px 10px 0;
         }
     }
+    svg{
+        fill: #ffa434;
+        width: 80px;
+        height: 80px;
+        margin-right: 10px;
+    }
 `
