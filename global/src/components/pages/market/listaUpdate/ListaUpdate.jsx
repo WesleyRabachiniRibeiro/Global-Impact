@@ -6,13 +6,11 @@ import { AiOutlineEye } from 'react-icons/ai'
 export default function ListaUpdate(props) {
     const [open, setOpen] = useState(false);
     const marketReceived = props.marketReceived
-    const isMarket = (props.isMarket === "supermarket") ? true : false
 
     return (
         <ListaAtualizacao>
             <div className="title-button">
                 <h1 className="update__h1">{props.marketUpdate}</h1>
-                {isMarket ? <><label htmlFor="fileInput" className="label-file">Enviar</label><input type="file" accept=".csv" id="fileInput" className="file-input"/></> : false}
             </div>
             <ul>
                 <div className="note-divisor">
