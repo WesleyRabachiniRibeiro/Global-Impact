@@ -8,7 +8,7 @@ function initialState(){
 }
 
 function Login({email, senha}){
-    if(email === 'admin' && senha === 'admin'){
+    if(email === 'admin@gmail.com' && senha === 'admin'){
         return {token: '1234', name: 'Administrador'}
     }
     return {error: 'Usuário ou senha inválida'}
