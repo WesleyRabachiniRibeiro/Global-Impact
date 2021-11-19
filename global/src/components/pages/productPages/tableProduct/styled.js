@@ -48,5 +48,11 @@ export const TableProductStyled = styled.table`
             width: 50%;
             border-spacing: 10px;
         }
+        input{
+            padding: 1px 0px;
+            width: 80px;
+            border: 1px solid black;
+            border-radius: 15px;
+        }
     }
 `

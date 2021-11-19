@@ -3,9 +3,6 @@ import styled from "styled-components";
 export const ListaAtualizacao = styled.div`
     width: 92%;
     margin: 0 auto;
-    h1{
-        font-size: 19px;
-    }
 
     p{
         color: #9F9F9F;
@@ -36,26 +33,6 @@ export const ListaAtualizacao = styled.div`
         justify-content: space-between;
         align-items: end;
         border-bottom: 1px solid #ccc;
-    }
-    .file-input{
-        display: none;
-    }
-    .label-file{
-        font-family: 'ABeeZee', sans-serif;
-        background-color: #1473E6;
-        color: #ffffff;
-        padding: 8px 20px;
-        margin-bottom: 8px;
-        border-radius: 50px;
-        width: 150px;
-        text-align: center;
-    }
-    .label-file:hover{
-        background-color: #1451E6;
-    }
-    .label-file::before{
-        content: '+';
-        margin-right: 10px;
     }
     .note-divisor{
         width: 95%;
@@ -112,15 +89,6 @@ export const ListaAtualizacao = styled.div`
     .btn:last-child:hover{
         background-color: #ED2B7F;
         transition: 0.5s;
-    }
-    @media(max-width: 600px){
-        .title-button{
-            flex-direction: column-reverse;
-            align-items: center;
-        }
-        .label-file{
-            margin-top: 30px;
-        }
     }
     @media(max-width:362px){
         .btn{
