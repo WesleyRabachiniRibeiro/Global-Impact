@@ -1,6 +1,5 @@
 import React from 'react'
 import { SectionStyled, FoodStyled, InfoStyled } from './styled.js'
-import { Link } from 'react-router-dom'
 import FoodForAll from "../../../../assets/Img/FoodForAll.jpg"
 
 export default function ThirdBody() {

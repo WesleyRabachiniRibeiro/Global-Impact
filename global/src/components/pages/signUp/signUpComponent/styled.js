@@ -25,6 +25,10 @@ export const SignUpStyled = styled.section`
         justify-content: center;
         margin: 10px 0 10px 0;
     }
+    label{
+        font-family: 'AbeeZee', sans-serif;
+        cursor: default;
+    }
 
     //container dos inptus
     .bloco-inputs fieldset{
