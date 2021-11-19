@@ -2,8 +2,7 @@ import React, {useEffect, useState} from 'react'
 import MainBody from '../../../home/body/mainBody/MainBody'
 import SignUpComponent from '../signUpComponent/SignUpComponent'
 
-
-export default function AllSingUp() {
+export default function AllSignUp() {
     const [on, toggle] = useState(true)
     const [backgroundColor , setBackground] = useState('rgba(255, 200, 58, 1)')
     const [title , setTitle] = useState('Instituição')
